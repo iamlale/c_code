@@ -18,7 +18,7 @@ void reverseN(int *number, int N) {
             n /= 10;
         }
 
-        printf("%f\n", (useless_part * pow(10, N)) + sum);
+        printf("%d\n", (int)(useless_part * pow(10, N)) + sum);
     }
 
 }
